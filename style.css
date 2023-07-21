@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+font-family: 'Ysabeau Infant', sans-serif;
+}
+#container{
+    border: 3px solid black;
+    width: 600px;
+    height: 360px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url('/storage/emulated/0/Download/web-design-2906159.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+#left{
+   /* background: greenyellow;*/
+    display:inline-block;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    padding:0;
+}
+#left img{
+    width: 10%;
+    border-radius: 30%;
+    border: 1px solid black;
+}
+#mid{
+    /*background: crimson;*/
+    background:black; 
+    display:block;
+    position: absolute;
+    top:10px;
+    left: 0;
+    right: 0;
+    width: 50%;
+    margin: auto;
+    border-radius: 3px;
+}
+nav{
+    text-align: center;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    /*margin: 0 3px;*/
+    margin: 2%;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+a:hover,nav li #active{
+    color: grey;
+    text-decoration: underline;
+    
+}
+/*a:visited{
+}*/
+a:active{
+    text-decoration: none;
+}   
+#right{
+    /*background: fuchsia;*/
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+.btn{
+     display:block;
+     margin: 1px;
+     background: black;
+     border-radius: 3px;
+     text-align: center;
+     text-decoration: none;
+     color: white;
+     padding: 2px;
+     cursor: pointer;
+}
+.btn p{
+    font-size: 10px;
+}
+#former{
+    color: white;
+    border:2px solid black;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 60px;
+    width: 48%;
+    height: 59%;
+    text-align: left;
+    padding: 5px;
+    box-sizing:  1px;
+    background: #00000089;
+    border-radius: 10px;
+    color: whitesmoke;
+}
+#centerh2{
+    text-align: center;
+}
+#inline{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+/*#input1{
+   display: inline-block;
+   width: 46%;
+}
+#input2{
+    display: inline-block;
+    width: 46%;
+}*/
+#submit1{
+    padding-left: 160px;
+}
+#submit1 input:hover{
+    color: gray;
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+    cursor: pointer;
+}
+#submit1 input:active{
+    text-decoration: none;
+}
+#input1{
+    font-size: 10px;
+}
+#input2{
+    font-size: 10px;
+}
+#name{
+    font-size: 10px;
+    background: whitesmoke;
+    background:transparent;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 2px solid whitesmoke;
+}
+#age{
+    font-size: 10px;
+    background: whitesmoke;
+    background:transparent;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 2px solid whitesmoke;
+    padding-left: 10px;
+}
+#contact{
+    font-size: 10px;
+    background: whitesmoke;
+    background:transparent;
+    color: white;
+    border-radius: 5px;
+    border-bottom: 2px solid whitesmoke;
+}
+#align{
+    margin-left: 44px;
+}
